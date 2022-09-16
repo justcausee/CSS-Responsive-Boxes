@@ -1,3 +1,63 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+
+* {
+  outline: 1px;
+  outline-color: black;
+}
+
+.a {
+  color: black;
+  background: red;
+  text-align: center;
+  width: 100%;
+  height: 25em;
+}
+
+.b {
+  color: black;
+  background: blue;
+  text-align: center;
+  min-width: 45em;
+  width: 70%;
+  height: 25em;
+}
+
+.c {
+  color: black;
+  background: green;
+  text-align: center;
+  min-width: 25em;
+  height: 25em;
+}
+
+.d {
+  color: black;
+  background: yellow;
+  text-align: center;
+  min-width: 25em;
+  height: 25em;
+}
+
+.e {
+  color: black;
+  background: orange;
+  text-align: center;
+  min-width: 25em;
+  height: 25em;
+}
+
+.f {
+  color: black;
+  background: purple;
+  text-align: center;
+  width: 25em;
+  height: 50em;
+}
